@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="wechat_work_webhook",
-    version="0.0.1",
+    version="0.0.2",
     author="mqzhang",
     author_email="zmingqian@qq.com",
     description="A wechat work webhook client.",

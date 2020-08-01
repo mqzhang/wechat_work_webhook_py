@@ -14,7 +14,8 @@ pip install --upgrade wechat_work_webhook
 ## Examples
 
 ```
-wechat = WechatWorkWebhook("webhook_url")
+import wechat_work_webhook
+wechat = wechat_work_webhook.connect("webhook_url")
 
 wechat.text('test',['@all'])
 
